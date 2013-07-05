@@ -1,4 +1,0 @@
-educloud
-========
-
-Education Portal Cloud
