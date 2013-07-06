@@ -1,3 +1,4 @@
+// Mannir Education Cloud Portal System, Developed By Muhammad Mannir Ahmad 
 package com.mannir.servlets;
 
 import java.io.ByteArrayOutputStream;
@@ -75,8 +76,7 @@ public class Exams extends HttpServlet {
     	DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
     	
     	boolean isMultipart = ServletFileUpload.isMultipartContent(request);
-    	
-    	// Create a new file upload handler
+   
     	ServletFileUpload upload = new ServletFileUpload();
 
     	// Parse the request
